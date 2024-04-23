@@ -1,0 +1,5 @@
+name: Артём
+age: 24
+email: artem.semcov@gmail.com
+message: Очень круто!
+
