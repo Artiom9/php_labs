@@ -1,9 +1,9 @@
-<?php 
-    require 'config.php';
-    session_start(); 
-    if(!$_SESSION['user']) { 
-        header('Location: http://'.$_SERVER['SERVER_NAME'].$path.'/');
-    }   
+<?php
+require 'config.php';
+session_start();
+if (!$_SESSION['user']) {
+    header('Location: http://' . $_SERVER['SERVER_NAME'] . $path . '/');
+}
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -18,7 +18,7 @@
 <body>
     <div class="link">
             <a href="logout.php" class="navbar"> Iesire </a>
-	</div>
+    </div>
     <div class="myData">
         <h1>Datele stocate în fisier, despre comenzile realizate </h1>
         <table>
@@ -34,18 +34,17 @@
                 <th>Observatii</th>
             </tr>
             <?php
-                $myData=fopen("data/dateRezervari.txt", "r")or die("Nu a fost gasit fisierul!");
-                while(!feof($myData))
-                {
-                    echo "<tr>";
-                    $record=trim(fgets($myData));
-                    $row = explode("\t", $record);
-                    foreach($row as $item){
-                        echo "<td>".$item."</td>";
-                    }
-                    echo "</tr>";
+            $myData = fopen("data/dateRezervari.txt", "r") or die("Nu a fost gasit fisierul!");
+            while (!feof($myData)) {
+                echo "<tr>";
+                $record = trim(fgets($myData));
+                $row = explode("\t", $record);
+                foreach ($row as $item) {
+                    echo "<td>" . $item . "</td>";
                 }
-                fclose($myData);
+                echo "</tr>";
+            }
+            fclose($myData);
             ?>
         </table>
     </div> 

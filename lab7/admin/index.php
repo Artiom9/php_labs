@@ -38,10 +38,10 @@ if (isset($_REQUEST['ok'])) {
 <body>
     <div class="link">
             <a href="signUp.php" class="navbar"> Inregistrare</a>
-	</div>    
+    </div>    
     <div class="myForm">
         <h1>Pentru a avea acces la date, autentificați-vă!!!</h1>
-        <form method="POST" autocomplete="off" action="<?php $_SERVER['SCRIPT_NAME']?>">
+        <form method="POST" autocomplete="off" action="<?php $_SERVER['SCRIPT_NAME'] ?>">
             <div class="signIn">
                 <input type="text" placeholder="Log-in" name="login" />
                 <input type="password" placeholder="Parola" name="pass" size="12" maxlength="10" class="half" /><br /> 
