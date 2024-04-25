@@ -1,0 +1,2 @@
+Семков,Артём,069652829,artem.semcov@gmail.com,2024-10-14,2024-02-15,1,lux,Comment
+Semcov,Artiom,069652829,artem.semcov@gmail.com,2024-10-14,2024-10-15,1,lux,&lt;scipt&gt;console.log(&quot;Hello, World!&quot;);&lt;/script&gt;
