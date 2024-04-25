@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+*{
+   box-sizing: border-box; 
+}
+html, body{
+    margin:0;
+    padding:1% 0;
+}
+body{
+    font-family: 'Cantarell', sans-serif;
+}
+/* */
+.myForm{
+    width: 100%;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+.myForm form{
+    width: 100%;
+}
+.myForm .container, .myForm textarea {
+    width: 100%;
+}
+.myForm .container, .signIn, .link{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.link a{
+    background-color: indigo;
+    padding: 15px;
+    color: whitesmoke;
+    border: none;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 7px;
+}
+.link a:hover{
+    background-color: rgb(250, 157, 124);
+    transition: 0.5s background;
+}
+.container input, .container select, .container label, .signIn input{
+    width: 100%;
+    margin: 15px 0;
+}
+.container .group{
+    width: 100%;
+}
+.container label{
+    color: rgb(82, 81, 81);
+    font-size: 1.1em;
+}
+.myForm .btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.myForm .container input, .myForm .container select, .myForm textarea, .signIn input{
+    padding: 10px;
+    border: none;
+    border: 2px solid rgb(150, 148, 148);
+    background-color: rgba(150, 148, 148, 0.5);
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Cantarell', sans-serif;
+}
+.myForm .container input:focus, .myForm .container select:focus, .myForm textarea:focus, .signIn input:focus{
+    background-color:rgba(93, 93, 189, 0.5);
+    color: white;
+}
+.myForm .container input::placeholder, .signIn input::placeholder, .myForm textarea::placeholder{
+    font-size: 1.1em;
+    font-family: 'Cantarell', sans-serif;
+    color: white;
+}
+.myForm h1{
+    color: white;
+    background-color:rgb(93, 93, 189);
+    padding: 25px;
+    text-align: center;
+}
+.myForm form input[type="submit"], input[type="reset"]{
+    color: white;
+    background-color:rgb(93, 93, 189);
+    padding: 20px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.5s background;
+}
+.myForm form input[type="submit"]:hover{
+    background-color: rgb(228, 147, 118);
+    transition: 0.5s background;
+}
+/* */
+
+/* */
+@media screen and (min-width: 600px) {
+    .myForm{
+        width: 90%;
+        margin: 1% auto;
+    }
+    .signIn{
+        width: 70%;
+        margin: 1% auto;
+    }
+    .signIn input{
+        width: 100%;
+    }
+    .container .group, .container .half{
+        width: 48%;
+        margin: 15px 0;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .myForm{
+        width: 70%;
+        margin: 1% auto;
+    }
+    .signIn{
+        width: 30%;
+        margin: 1% auto;
+    }
+    .signIn input{
+        width: 100%;
+    }
+    .container .group, .container .half{
+        width: 23%;
+        margin: 15px 0;
+    }
+}
+.error{
+    color: coral;
+}
+.result{
+    width: 70%;
+    margin: 3% auto;
+    background-color: indigo;
+    color: white;
+    font-size: 1.1em;
+    padding: 15px;
+    border-radius: 7px;
+}
+.myData{
+    width: 90%;
+    padding: 15px;
+    margin: 0 auto;
+}
+table, tr, th, td{
+    border: 2px solid indigo;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    padding: 1%;
+    background-color: indigo;
+    color: whitesmoke;
+}
+td{
+    padding: 1%;
+    background-color: whitesmoke;
+    color: indigo;
+}

@@ -1,0 +1,26 @@
+Plesca	Natalia	079733257	nataliaDplesca@gmail.com	2022-03-02	2022-03-12	1	Lux	Nu am
+Luca	Maria	099887766	maria@gmail.com	2022-03-04	2022-03-10	3	Apartament	Sa fie curat
+Ghita	Ghita	066775544	ghita@mail.ru	2022-03-05	2022-03-05	1	Lux	-
+Suman	Ion	033445566	ion@yandex.ru	2022-03-06	2022-03-17	4	Econom	Nimic
+Litvin	Ileana	055667788	lena@mail.ru	2022-03-05	2022-03-09	1	Lux	-
+Caldarov	Ina	066554433	ina@yahoo.com	2022-03-05	2022-04-01	5	Lux	Nu am
+Susanin	Ivan	055332211	ivan@susanin.ru	2022-03-05	2022-03-22	2	Lux	-
+Câsa	Vera	078656445	vera@gmail.com	2022-03-03	2022-03-17	3	Econom	Abia astept
+Chirica	Elena	0776655	elena@gmail.com	2022-03-04	2022-03-10	2	Econom	Nu am
+Egorov	Inna	0889977	inna@mail.ru	2022-03-05	2022-03-11	4	Econom	-
+Dan	Dan	0889977	dan@gmail.com	2022-03-04	2022-03-11	2	Econom	Nu am
+Plesca	Natalia	079733257	nataliaDplesca@gmail.com	2022-03-16	2022-03-17	1	Lux	Nu am
+Ivanov	Ivan	088997766	ivan@gmail.com	2022-03-16	2022-03-18	1	Econom	Nu am
+Chirilov	Ivan	088997766	ivan@gmail.com	2022-03-16	2022-03-20	1	Lux	Sa fie curat
+Iacov	Iacob	099887766	iacob@mail.ru	2022-05-16	2022-05-21	1	Lux	Nu am
+Aaaa	Sssss	099887766	aaa@mail.ru	2022-06-03	2022-06-08	1	Lux	Nu am
+Hhhh	Kaaaa	088776699	hhh@mail.com	2022-06-04	2022-06-08	1	Econom	Sa fie curat
+Airinii	Irina	0888999	irina@mail.md	2022-06-04	2022-06-09	1	Lux	Nu am
+David	Dima	077665544	dima@mail.ru	2022-06-09	2022-06-16	1	Econom	-
+Agafieva	An	099887766	ana@mail.ru	2022-07-07	2022-07-13	2	Econom	Nu am
+23456	waerstry	ERTDYFGHJKL;	ANA@MAIL.COM	2022-07-07	2022-07-13	1	Lux	-
+Plesca	Natalia 	079733257	nataliaDplesca@gmail.com	2022-09-14	2022-09-16	3	Econom	Nu am
+Plesca	Natalia	079733257	nataliaDplesca@gmail.com	2022-09-14	2022-09-16	3	Econom	Nu am
+Adam	Nicolae	099887766	adam@gmail.com	2022-09-20	2022-09-23	1	Lux	Nu am observatii
+Ivanov	Ion	099887766	ion@mail.ru	2022-10-03	2022-10-07	1	Lux	Nu am
+Afanasiu	Ana	099887766	ana@gmail.com	2022-10-19	2022-10-22	1	Lux	Nu am
